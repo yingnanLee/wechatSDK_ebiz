@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'wechatSDK_ebiz_ios_Example' do
+  pod 'wechatSDK_ebiz_ios', :path => '../'
+
+  target 'wechatSDK_ebiz_ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
