@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lyn55001@163.com' => 'lyn55001@163.com' }
-  s.source           = { :git => 'git remote add origin https://github.com/yingnanLee/wechatSDK_ebiz.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yingnanLee/wechatSDK_ebiz.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
