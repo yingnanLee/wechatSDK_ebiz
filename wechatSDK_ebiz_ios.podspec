@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   整合并集成1.9.2版本 of wechatSDK_ebiz_ios，初始版本0.1.0
                          DESC
 
-  s.homepage         = 'https://github.com/lyn55001@163.com/wechatSDK_ebiz_ios'
+  s.homepage         = 'git remote add origin https://github.com/yingnanLee/wechatSDK_ebiz.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lyn55001@163.com' => 'lyn55001@163.com' }
-  s.source           = { :git => 'https://github.com/lyn55001@163.com/wechatSDK_ebiz_ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git remote add origin https://github.com/yingnanLee/wechatSDK_ebiz.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
